@@ -27,7 +27,7 @@ function getLicense(value) {
 
 
 // Validate input function
-function validateInput(value){
+function input(value){
     if (value != ""){
         return true;
     } else {
@@ -41,25 +41,25 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is the title of your project?",
-    validate: validateInput, 
+    validate: input, 
 },
 {
     type: "input",
     name: "description",
     message: "Please enter a description of your project ",
-    validate: validateInput,
+    validate: input,
 },
 {
     type: "input",
     name: "installation",
     message: "Please enter an explanation how to install the software, or commands for the program. ",
-    validate: validateInput,
+    validate: input,
 },
 {
     type: "input",
     name: "usage",
     message: "Please describe how can use this program/project.", 
-    validate: validateInput,
+    validate: input,
 },
 {
     type: "list",
@@ -74,20 +74,20 @@ const questions = [
         "MIT",
         "Mozilla",
     ],
-    validate: validateInput,
+    validate: input,
 },
 {
 
     type: "input",
     name: "tests",
     message: "Please enter any tests or test instructions for your project.",
-    validate: validateInput,
+    validate: input,
 },
 {
     type: "input",
     name: "userName",
     message: "What is your GitHub username?",
-    validate: validateInput,
+    validate: input,
 },
 {
     type: "input",
@@ -102,7 +102,7 @@ const questions = [
     },
 },
 ];
-// TODO: Create a function to write README file
+// Write to the readme file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function (err) {
         if (err) {
@@ -111,7 +111,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(JSON.stringify(data, null, ""));
