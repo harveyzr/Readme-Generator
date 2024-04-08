@@ -1,10 +1,10 @@
 
 # Project Title
-asldkfjasldkjf
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+Readme Generator 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 # Description
-sadflkjasdflkjasdf
+This project uses node to generate a readme file
 
 # Table of Contents 
 - [Installation](#installation)
@@ -15,22 +15,22 @@ sadflkjasdflkjasdf
 - [Questions](#contact-information)
   
 ## Installation
-sdflk;jasdlfkjsd
+You want to use node and make sure you have installed inquirer
 
 ## Usage
-asddlfkjasdlfkj
+You can use this to generate your readme file
 
 ## License 
-GNU LGPLv3
+GNU AGPLv3
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 
 ## Contributing 
 undefined
 
 ## Tests
-'osdfjsa
+You can test the project by running this application
 
 # Contact Information 
-* GitHub Username: asdlfkj
-* Contact Email: sldfkj@gmail.com
+* GitHub Username: harveyzr
+* Contact Email: harveyzr@gmail.com
 

@@ -6,7 +6,7 @@
  - [User Story](#user-story)
  - [Acceptance Criteria](#acceptance-criteria)
  - [Images](#images)
- - [Link To Deployed Webpage](#link-to-deployed-webpage)
+ - [Link To Recorded Video](#link-to-recorded-video)
  - [Link to GitHub Pages ](#link-to-gethub-website)
  - [Skills Used](#skills-used)
 
@@ -42,13 +42,13 @@ The main goal of this project is to make a readme generator with node and inquir
 - THEN I am taken to the corresponding section of the README
 
  ## Images
-![Website Preview](assets/img/quiz%20gif.gif)
+![Website Preview](img/Readme%20Gif.gif)
  
- ## Link to Deployed Webpage
-https://harveyzr.github.io/quizchallenge/
+ ## Link to recorded video
+https://drive.google.com/file/d/12Xg9W3A1lWEKGrnXmny-iv2w1Beqhq7M/view
  
 ## Link to GetHub Website
-https://github.com/harveyzr/quizchallenge
+https://github.com/harveyzr/Readme-Generator
 
 
  ## Skills Used
